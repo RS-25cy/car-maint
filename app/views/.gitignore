@@ -1,0 +1,17 @@
+# macOS
+.DS_Store         ← Finderが作る隠しファイル
+
+# PHP/環境ファイル（例）
+.env              ← パスワードなど環境変数ファイル
+*.log             ← ログファイル全般
+
+# エディタ設定
+.vscode/          ← VS Codeの設定
+.idea/            ← PhpStormの設定
+
+# 依存物（Composer使うなら）
+vendor/           ← PHPパッケージ群
+
+# MAMP/その他（キャッシュなど）
+tmp/              ← 一時ファイル
+
