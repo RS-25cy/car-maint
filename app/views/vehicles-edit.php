@@ -3,7 +3,7 @@
 
 <form method="post" action="/?r=vehicles_edit">
   <input type="hidden" name="csrf" value="<?= htmlspecialchars($_SESSION['csrf']) ?>">
-  <input type="hidden" name="id" value="<?= (int)$vehicle['id'] ?>">
+  <input type="hidden" name="id" value="<?= (int)$record['id'] ?>">
 
   <div>
     <label>名前

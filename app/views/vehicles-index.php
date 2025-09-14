@@ -24,6 +24,8 @@
                     <input type="hidden" name="csrf" value="<?= htmlspecialchars($_SESSION['csrf']) ?>">
                     <input type="hidden" name="id" value="<?= (int)$v['id'] ?>">
                     <button type="submit">削除</button>
+                    <a href="/?r=records&vehicle_id=<?= (int)$v['id'] ?>">記録</a>
+
                 </form>
             </td>
 

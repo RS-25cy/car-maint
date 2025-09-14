@@ -14,6 +14,7 @@
     <div><label>Email <input type="email" name="email" required></label></div>
     <div><label>Password <input type="password" name="password" required></label></div>
     <button type="submit">ログイン</button>
+    <p>初めての方は <a href="/?r=register">新規登録</a> へ</p>
   </form>
 </body>
 </html>
